@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(176, 125, 195);
+    color: white;
+}
+hr{
+    color: rgb(8, 0, 11);
+}
+.container{
+    max-width: 80vw;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.navbar{
+    display: flex;
+    height: 120px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 32px;
+    font-size: 1.5rem;;
+
+}
+.top-left{
+    width: 50%;
+    height: 50vh;
+}
+.top-right{
+    width: 50%;
+    height: 50vh;
+}
+.section1 h1{
+    text-align:justify;
+    font-size: 2.5rem;
+}
+.section1 p{
+    padding: 5px;
+    margin: 10px 0px;
+    text-align: justify;
+
+}
+.section2{
+    padding:73px;
+}
+.section2 h1{
+    font-size: 2.5rem;
+    /* color: rgb(95, 44, 183); */
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.gymimg{
+    height: 40vh;
+    width: 20vw;
+    margin: 20px 130px;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 33px;
+    min-width: 20vw;
+    border: 2px solid rgb(205, 224, 33);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(91, 39, 108);
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(189, 203, 225, 0.2), 0 6px 20px 0 rgba(189, 203, 225, 0.2);
+
+}
+.box h2{
+    padding: 12px 0;
+    font-size: 1.8rem;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 17px 2px ;
+
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box h2{
+    font-weight: 2rem;
+}
+.btn2{
+    padding: 10px 12px;
+    margin: 15px;
+    border: 2px solid  white;
+    cursor: pointer;
+    border-radius: 6px;
+    color:white;
+    background-color:rgb(40, 5, 43);
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(135, 49, 161);;
+    padding: 15px 0;
+    color:rgb(114, 18, 106) ;
+}
+.section3 table td{
+    border-bottom: 2px solid rgb(135, 49, 161);
+}
+.section3 h1{
+    font-size:2.3rem ;
+}
+.section3{
+    padding:73px;
+
+
+}
+table th{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+footer{
+    padding:23px;
+    text-align: center;
+    color: rgb(55, 4, 59);
+    font-weight: bold;
+
+}
